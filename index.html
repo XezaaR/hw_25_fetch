@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" id="cityName" placeholder="city name">
+    <button id="getWeather">Get Weather</button>
+    <div id="section">
+        <div class="side-nav" id="sideNav">
+            <ul>
+                <li class="active" data-name="Posts">Posts</li>
+                <li data-name="Comments">Comments</li>
+                <li data-name="Albums">Albums</li>
+                <li data-name="Photos">Photos</li>
+                <li data-name="Todos">Todos</li>
+                <li data-name="Users">Users</li>
+            </ul>
+        </div>
+        <div class="content" id="content">
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="dto.js"></script>
+    <script src="api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
